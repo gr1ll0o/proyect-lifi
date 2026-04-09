@@ -1,19 +1,32 @@
-int led = 6;
+#include <stdio.h>
+int a;
+int led = 3;
 int brillo;
 String texto = "010000011";
+int boton=8;
+int er=0;
 //entrada del enter
-std::cout << "Nombre: "
+int estadoBoton = digitalRead(boton);
 void setup() {
   // put your setup code here, to run once:
   pinMode(led, OUTPUT);
+  pinMode(boton, INPUT);
   Serial.begin(9600);
-
 }
 
 void loop() {
   analogWrite(led, 0);
   delay(1000);
-
+  if (estadoBoton == 0) {
+    while(er==0)
+    {
+      int estadoBoton = digitalRead(boton);
+      if(estadoBoton==1)
+      {
+        er+=1;
+      }
+    }
+  }
   for (int i = 0; i < texto.length(); i++) {
     analogWrite(led, 0);
     delay(500);
@@ -29,7 +42,7 @@ void loop() {
     delay(500);
   }
   analogWrite(led, 0);
-  delay(10000);
+  estadoBoton=0;
   
   /*analogWrite(led, 0); // APAGADO
   delay(1000);
