@@ -28,6 +28,7 @@
                 La transmisión de datos se realiza mediante la modulación de la luz de un LED, mientras que la recepción se lleva a cabo con un fototransistor. <br>
                 Este proyecto a pequeña escala pretende servir como ejemplo y referencia a posibles avances con respecto a esta tecnología.<br> <br>
             </p>
+            <!-- AÑADIR IMAGENES, MAS TEXTO, QUIZAS ALGUNA ANIMACION ETC-->
         </section>
         
         <section id="usuario">
@@ -42,42 +43,6 @@
 
         <section id="creacion">
             <h2>Ajustes del Sistema</h2>
-            <p>
-            Un Arduino transmisor que envía información encendiendo y apagando un LED en una secuencia específica (código binario).<br>
-            Un Arduino receptor que detecta los cambios de luz usando un fototransistor y reconstruye la señal recibida.<br>
-            Este proyecto fue desarrollado como parte de una feria de ciencias, con el objetivo de demostrar cómo la luz visible puede utilizarse <br> 
-            como medio de comunicación. 
-        <br><br> ════════════════════════════════════════ <br><br>
-            ⚙️ Componentes necesarios: <br>
-            Transmisor. ┃ 2x Arduino (UNO, Nano, etc.). ┃ 1x LED. ┃ 1x Resistencia (220Ω o 330Ω). <br>
-            Cables. ┃ 1x Fototransistor. ┃ 1x Resistencia (10kΩ recomendada).
-        <br><br> ════════════════════════════════════════ <br><br>
-            🔌 Esquema básico <br>
-                Transmisor ┃ LED conectado a un pin analógico del Arduino. ┃ Receptor <br>
-                Fototransistor (lectura de la intensidad de luz del led)
-        <br><br> ════════════════════════════════════════ <br><br>
-            🚀 Funcionamiento <br>
-                El Arduino transmisor convierte datos en una secuencia binaria (1s y 0s) <br>
-                y la reproduce en el LED secuencialmente variando su intensidad según corresponda. <br>
-                Si el LED está prendido al 100%, está enviando 1. Si el led está prendido al 25-30%,<br>
-                está enviando 0. Si está totalmente apagado está enviando una pausa o apagado.<br>
-                El Arduino receptor esperará señales de este transmisor y las decodificará en texto legible, <br>
-                Tomando las pausas necesarias para leer el mensaje enviado por el transmisor. Mostrará finalmente el texto enviado.
-        <br><br> ════════════════════════════════════════ <br><br>
-            📊 ¿Qué se puede mejorar?<br>
-                    Buscamos incentivar este concepto e idea a través de una simulación a baja escala, <br> 
-                    para esto, se construye el proyecto con la intención de abrir paso a:<br>
-                        - Aumentar la velocidad de transmisión<br>
-                        - Implementar corrección de errores<br>
-                        - Usar modulaciones más avanzadas<br>
-                        - Filtrar ruido de luz ambiente<br>
-                        - Transmitir textos extensos y/o datos de programa<br>
-        <br><br> ════════════════════════════════════════ <br><br>
-            🌟 Aplicaciones del Li-Fi<br>
-                    Comunicación inalámbrica en entornos donde el Wi-Fi no es viable<br>
-                    Redes seguras (la luz no atraviesa paredes)<br>
-                    Internet de alta velocidad mediante iluminación LED<br><br><br>
-        </p>
         </section>
     </div>
 
