@@ -54,6 +54,12 @@ abrir paso a:
 - Redes seguras (la luz no atraviesa paredes)
 - Internet de alta velocidad mediante iluminación LED
 
+## 📚 Bibliografía
+En este apartado se encuentra la documentación del proyecto, tanto teórica como práctica.
+- ["Tecnología Col-Fi con LEDs RGB" - Thiago Grillo](https://docs.google.com/document/d/173AnS3XXFvmV6eeRK5DUw5NHlWwti-Y3nihKtxYBDz8/edit?usp=sharing)
+- ["Eficiencia" - Ciro Lopez](https://docs.google.com/document/d/1-Dihl-4YaM7QIMXAFMvgepBVzemDwMUJAeh4PGH9Aec/edit?usp=sharing)
+
+(Toda esta documentación puede ser descargada desde el directorio "doc").
 ## 👨‍🔬 Autores
 
 Proyecto realizado por:\
